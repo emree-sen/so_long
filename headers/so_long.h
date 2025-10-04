@@ -6,7 +6,7 @@
 /*   By: emsen <emsen@student.42istanbul.com.tr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/28 11:11:48 by emsen             #+#    #+#             */
-/*   Updated: 2024/04/28 16:15:10 by emsen            ###   ########.fr       */
+/*   Updated: 2025/10/04 17:51:14 by emsen            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,20 +34,21 @@
 # define MAP 0
 # define MAP_COPY 1
 
-# define KEY_A 0
-# define KEY_S 1
-# define KEY_D 2
-# define KEY_W 13
-# define KEY_R 15
-# define KEY_ONE 18
-# define KEY_TWO 19
-# define KEY_THREE 20
-# define KEY_FOUR 21
-# define KEY_ESC 53
-# define KEY_LEFT 123
-# define KEY_RIGHT 124
-# define KEY_DOWN 125
-# define KEY_UP 126
+
+#define KEY_A 97
+#define KEY_S 115
+#define KEY_D 100
+#define KEY_W 119
+#define KEY_R 114
+#define KEY_ONE 49
+#define KEY_TWO 50
+#define KEY_THREE 51
+#define KEY_FOUR 52
+#define KEY_ESC 65307
+#define KEY_LEFT 65361
+#define KEY_RIGHT 65363
+#define KEY_DOWN 65364
+#define KEY_UP 65362
 
 # define DIR_LEFT 	4
 # define DIR_RIGHT 	6
